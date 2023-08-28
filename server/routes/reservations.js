@@ -1,3 +1,8 @@
+require('dotenv').config(); // Load environment variables from .env file
+
+// Now you can access the Netlify token using process.env.NETLIFY_AUTH_TOKEN
+const netlifyToken = process.env.NETLIFY_AUTH_TOKEN;
+
 const express = require('express');
 const router = express.Router();
 const Reservation = require('../models/Reservation'); // We'll create this model in the next step
