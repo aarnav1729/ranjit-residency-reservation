@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "root": "my-hotel-reservation-system",
     "builds": [
       {
         "src": "client/package.json",
